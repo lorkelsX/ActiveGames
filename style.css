@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+#name{
+    color: grey;
+}
+
+.wrap {
+    background-color: rgb(149, 255, 220);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}  
+
+.canvas {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 55%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    width: 33.33%;
+    height: 100%;
+    background-color: white;
+}
+
+.imgAvatar {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid   rgba(0, 255, 255, 0.185);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+
+.button {
+    
+    height: 50px;
+    width: 95%; 
+}
+.buttonsManage{
+    padding-left: 30%;
+    display: flex;
+    gap: 10px;
+
+}
+i{
+    color: rgb(41, 171, 171);
+    font-size: 30px;
+}
+.joinFree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 80%;
+    background-color: aqua;
+    border-radius: 20px;
+
+
+}
+.text{
+    height: 100%;
+    width: 50%;
+}
+.gamePad{
+    background-color: aqua;
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+}
+.join{
+    font-size: 200%;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.imgGamePad{
+    height: 100%;
+    width: 100%;
+}
+
+.info {
+    width: 66.6%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+h1{
+    padding-right: 55%;
+    margin-bottom: 20px;
+}
+.progress{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 3%;
+    width: 40%;
+    margin-right: 50%;
+    margin-bottom: 20%;
+}
+
+.game img {
+    width: 60px;
+    height: 60px;
+}
+
+.infoFromGame {
+    width: 50%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.progresBar {
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white ;
+}
+
+.progres {
+    width: 60%;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.nb {
+    margin-bottom: 100px;
+}
